@@ -4,6 +4,7 @@
 ============================================================*/
 
 const esprima = require("esprima");//将js代码转化为ast
+//放在哪个平台上就需要哪个平台的文档读取能力
 const fs = require('fs');//node的文档模块
 const estraverse = require("estraverse");//对ast进行遍历
 const escodegen = require("escodegen");//重新将ast转化为js
