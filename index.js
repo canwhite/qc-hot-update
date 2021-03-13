@@ -9,6 +9,7 @@ const fs = require('fs');//node的文档模块
 const estraverse = require("estraverse");//对ast进行遍历
 const escodegen = require("escodegen");//重新将ast转化为js
 const hermes = require("hermes");//js引擎
+//nodejs的拓展，重新包装了child_process
 const shell = require('shelljs');//shell
 
 
